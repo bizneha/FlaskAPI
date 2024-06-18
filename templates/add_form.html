@@ -12,6 +12,11 @@
         <label for="b">Enter number B:</label>
         <input type="text" id="b" name="b"><br><br>
         <input type="submit" value="Submit">
+        
     </form>
+    
+    {% if result is not none %}
+    <h3>Result: {{ result }}</h3>
+    {% endif %}
 </body>
 </html>
